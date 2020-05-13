@@ -26,7 +26,7 @@ func main() {
 		log.Fatalln(err)
 	}
 	for scanner.Scan() {
-		fmt.Println(strings.ReplaceAll(scanner.Text(), "u2028", "\n"))
+		fmt.Println(strings.ReplaceAll(scanner.Text(), "\u2016", "\n"))
 	}
 
 }

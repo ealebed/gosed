@@ -1,6 +1,6 @@
 ### gosed
 
-Commmand line tool for reading input from the console, replacing symbols `u2028` to `\n` and passing the output.
+Commmand line tool for reading input from the console, replacing symbols `u2016` to `\n` and passing the output.
 
 ## Get
 ```
